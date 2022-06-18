@@ -1,0 +1,68 @@
+:root {
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.logo {
+}
+.nav {
+}
+.header__nav {
+}
+.header__nav--action {
+}
+.nav__list {
+  display: flex;
+  gap: 30px;
+}
+.nav_list--action {
+}
+.nav__item {
+}
+.nav_link--action {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  transition: 3s;
+}
+.nav_link--action:hover {
+  color: #18b5dc;
+  transition: 0.4s;
+  /* text-decoration: solid underline 4px; */
+}
+
+.nav__link {
+}
+.contacts {
+}
+.form {
+}
+
+.contacts_form_action {
+}
+.contact-btn {
+  width: 130px;
+  height: 42px;
+}
+:not(:checked) + .modal-glass {
+  display: none;
+}
+.main {
+}
+.footer {
+}
