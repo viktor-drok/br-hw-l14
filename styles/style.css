@@ -3,10 +3,12 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  background-color: rgb(235, 212, 212);
 }
 
 .wrapper {
-  max-width: 1440px;
+  position: relative;
+  max-width: 1170px;
   margin: 0 auto;
 }
 .header {
@@ -15,22 +17,12 @@ body {
   align-items: center;
   height: 80px;
 }
-.logo {
-}
-.nav {
-}
-.header__nav {
-}
-.header__nav--action {
-}
+
 .nav__list {
   display: flex;
   gap: 30px;
 }
-.nav_list--action {
-}
-.nav__item {
-}
+
 .nav_link--action {
   font-style: normal;
   font-weight: 600;
@@ -38,31 +30,92 @@ body {
   line-height: 24px;
   text-transform: uppercase;
   color: #3c3c3c;
-  transition: 3s;
+  transition: 4s;
 }
 .nav_link--action:hover {
   color: #18b5dc;
   transition: 0.4s;
-  /* text-decoration: solid underline 4px; */
 }
 
-.nav__link {
-}
-.contacts {
-}
-.form {
+/* .form__btn--action {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  text-align: center;
+} */
+
+.checkbox:not(:checked) ~ .modal {
+  display: none;
 }
 
-.contacts_form_action {
+.glass__modal {
+  position: absolute;
+  width: 33.333%;
+  height: 40%;
+  background: #0003;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.contact-btn {
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.form__phone,
+.form__email {
+  height: 50px;
+  width: 60%;
+}
+
+.btn {
+  border: 1px solid #3c3c3c;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  background: #ffffff;
   width: 130px;
   height: 42px;
 }
-:not(:checked) + .modal-glass {
-  display: none;
+
+.glass__lable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
-.main {
+
+.about {
+  display: flex;
+  flex-direction: column;
 }
-.footer {
+
+.title,
+.text {
+  margin: 0 auto;
+}
+
+.about__title::after {
+  content: '';
+  display: flex;
+  margin: 0 auto;
+  width: 40px;
+  border-bottom: 4px solid #dddbdb;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
 }

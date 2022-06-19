@@ -30,29 +30,82 @@
             </li>
           </ul>
         </nav>
-        <div>
-          <input type="checkbox" id="box" />
+        <div class="glass header__glass header__glass--action">
+          <input type="checkbox" id="box" class="checkbox" hidden />
 
-          <div class="">
-            <p></p>
-          </div>
+          <button class="btn form__btn form__btn--action">
+            <label for="box" class="label glass__lable">callback</label>
+          </button>
 
-          <div class="glass">
-            <div class="modal">
-              <button>
-                <label for="box">accept</label>
-              </button>
-            </div>
+          <div class="modal glass__modal">
+            <form class="form modal__form">
+              <input type="tel" class="phone form__phone" placeholder="Phone number" />
+              <input type="email" class="email form__email" placeholder="Your email" />
+              <button type="submit" class="btn form__btn form__btn--action">contact me</button>
+            </form>
           </div>
         </div>
       </header>
 
       <main class="main">
         <div class="about">
-          <h1 class="title about__title"></h1>
-          <p class="text about__text"></p>
+          <h1 class="title about__title">who we are</h1>
+          <p class="text about__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+          </p>
         </div>
-        <div class="cards">
+        <section class="cards">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./images/1.jpg" alt="" width="270" height="270" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./images/twitter-blue.svg" alt="" width="" height="" />
+                <img src="./images/facebook-blue.svg" alt="" width="" height="" />
+                <img src="./images/instagram-blue.svg" alt="" width="" height="" />
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./images/2.jpg" alt="" width="270" height="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./images/twitter-blue.svg" alt="" width="" height="" />
+                <img src="./images/facebook-blue.svg" alt="" width="" height="" />
+                <img src="./images/instagram-blue.svg" alt="" width="" height="" />
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./images/3.jpg" alt="" width="270" height="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./images/twitter-blue.svg" alt="" width="" height="" />
+                <img src="./images/facebook-blue.svg" alt="" width="" height="" />
+                <img src="./images/instagram-blue.svg" alt="" width="" height="" />
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="./images/4.jpg" alt="" width="270" height="" />
+              </div>
+              <div class="flip-card-back">
+                <img src="./images/twitter-blue.svg" alt="" width="" height="" />
+                <img src="./images/facebook-blue.svg" alt="" width="" height="" />
+                <img src="./images/instagram-blue.svg" alt="" width="" height="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- <div class="cards">
           <ul class="list cards__list">
             <li class="item cards__item">
               <img src="" alt="" />
@@ -75,7 +128,7 @@
               <p class="text list__text"></p>
             </li>
           </ul>
-        </div>
+        </div> -->
       </main>
 
       <footer class="footer"></footer>
