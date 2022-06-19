@@ -11,140 +11,144 @@
   <body>
     <div class="wrapper">
       <header class="header">
-        <div class="logo">
-          <img src="./images/logo.svg" alt="" />
-        </div>
-        <nav class="nav header__nav header__nav--action">
-          <ul class="nav__list nav_list--action">
-            <li class="nav__item">
-              <a href="" class="nav__link nav_link--action">Home</a>
-            </li>
-            <li class="nav__item">
-              <a href="" class="nav__link nav_link--action">services</a>
-            </li>
-            <li class="nav__item">
-              <a href="" class="nav__link nav_link--action">About</a>
-            </li>
-            <li class="nav__item">
-              <a href="" class="nav__link nav_link--action">contacts</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="glass header__glass header__glass--action">
-          <input type="checkbox" id="box" class="checkbox" hidden />
+        <div class="container header__container">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="" />
+          </div>
+          <nav class="nav header__nav header__nav--action">
+            <ul class="nav__list nav_list--action">
+              <li class="nav__item">
+                <a href="" class="nav__link nav_link--action">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link nav_link--action">services</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link nav_link--action">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav__link nav_link--action">contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="glass header__glass header__glass--action">
+            <input type="checkbox" id="box" class="checkbox" hidden />
 
-          <button class="btn form__btn form__btn--action">
-            <label for="box" class="label glass__lable">callback</label>
-          </button>
+            <button class="btn form__btn form__btn--action">
+              <label for="box" class="label glass__lable">callback</label>
+            </button>
 
-          <div class="modal glass__modal">
-            <form class="form modal__form">
-              <input type="tel" class="phone form__phone" placeholder="Phone number" />
-              <input type="email" class="email form__email" placeholder="Your email" />
-              <button type="submit" class="btn form__btn form__btn--action">contact me</button>
-            </form>
+            <div class="modal glass__modal">
+              <form class="form modal__form">
+                <input type="tel" class="phone form__phone" placeholder="Phone number" />
+                <input type="email" class="email form__email" placeholder="Your email" />
+                <button type="submit" class="btn form__btn form__btn--action">contact me</button>
+              </form>
+            </div>
           </div>
         </div>
       </header>
 
       <main class="main">
-        <div class="about">
-          <h1 class="title about__title">who we are</h1>
-          <p class="text about__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-          </p>
+        <div class="container maim__container">
+          <div class="about">
+            <h1 class="title about__title">who we are</h1>
+            <p class="text about__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <section class="cards main__cards">
+            <div class="hero">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/1.jpg" alt="" width="270" height="270" />
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="https://twitter.com/" target="_blank" class="flip-card-link">
+                      <img src="./images/twitter-lightblue.svg" alt="" />
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="flip-card-link">
+                      <img src="./images/facebook-lightblue.svg" alt="" />
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="flip-card-link">
+                      <img src="./images/instagram-lightblue.svg" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="title hero__title">John Handson</h2>
+              <p class="hero__text">Lead designer</p>
+            </div>
+            <div class="hero">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/2.jpg" alt="" width="270" />
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="https://twitter.com/" target="_blank" class="flip-card-link">
+                      <img src="./images/twitter-lightblue.svg" alt="" />
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="flip-card-link">
+                      <img src="./images/facebook-lightblue.svg" alt="" />
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="flip-card-link">
+                      <img src="./images/instagram-lightblue.svg" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="title hero__title">Alex Cutter</h2>
+              <p class="hero__text">Developer</p>
+            </div>
+            <div class="hero">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/3.jpg" alt="" width="270" />
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="https://twitter.com/" target="_blank" class="flip-card-link">
+                      <img src="./images/twitter-lightblue.svg" alt="" />
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="flip-card-link">
+                      <img src="./images/facebook-lightblue.svg" alt="" />
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="flip-card-link">
+                      <img src="./images/instagram-lightblue.svg" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="title hero__title">Elena Simpson</h2>
+              <p class="hero__text">Artist</p>
+            </div>
+            <div class="hero">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./images/4.jpg" alt="" width="270" />
+                  </div>
+                  <div class="flip-card-back">
+                    <a href="https://twitter.com/" target="_blank" class="flip-card-link">
+                      <img src="./images/twitter-lightblue.svg" alt="" />
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="flip-card-link">
+                      <img src="./images/facebook-lightblue.svg" alt="" />
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="flip-card-link">
+                      <img src="./images/instagram-lightblue.svg" alt="" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="title hero__title">Lily Allen</h2>
+              <p class="hero__text">Graphic Designer</p>
+            </div>
+          </section>
         </div>
-        <section class="cards main__cards">
-          <div class="hero">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="./images/1.jpg" alt="" width="270" height="270" />
-                </div>
-                <div class="flip-card-back">
-                  <a href="https://twitter.com/" target="_blank" class="flip-card-link">
-                    <img src="./images/twitter-lightblue.svg" alt="" />
-                  </a>
-                  <a href="https://www.facebook.com/" target="_blank" class="flip-card-link">
-                    <img src="./images/facebook-lightblue.svg" alt="" />
-                  </a>
-                  <a href="https://www.instagram.com/" target="_blank" class="flip-card-link">
-                    <img src="./images/instagram-lightblue.svg" alt="" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <h2 class="title hero__title">John Handson</h2>
-            <p class="hero__text">Lead designer</p>
-          </div>
-          <div class="hero">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="./images/2.jpg" alt="" width="270" />
-                </div>
-                <div class="flip-card-back">
-                  <a href="https://twitter.com/" target="_blank" class="flip-card-link">
-                    <img src="./images/twitter-lightblue.svg" alt="" />
-                  </a>
-                  <a href="https://www.facebook.com/" target="_blank" class="flip-card-link">
-                    <img src="./images/facebook-lightblue.svg" alt="" />
-                  </a>
-                  <a href="https://www.instagram.com/" target="_blank" class="flip-card-link">
-                    <img src="./images/instagram-lightblue.svg" alt="" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <h2 class="title hero__title">Alex Cutter</h2>
-            <p class="hero__text">Developer</p>
-          </div>
-          <div class="hero">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="./images/3.jpg" alt="" width="270" />
-                </div>
-                <div class="flip-card-back">
-                  <a href="https://twitter.com/" target="_blank" class="flip-card-link">
-                    <img src="./images/twitter-lightblue.svg" alt="" />
-                  </a>
-                  <a href="https://www.facebook.com/" target="_blank" class="flip-card-link">
-                    <img src="./images/facebook-lightblue.svg" alt="" />
-                  </a>
-                  <a href="https://www.instagram.com/" target="_blank" class="flip-card-link">
-                    <img src="./images/instagram-lightblue.svg" alt="" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <h2 class="title hero__title">Elena Simpson</h2>
-            <p class="hero__text">Artist</p>
-          </div>
-          <div class="hero">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="./images/4.jpg" alt="" width="270" />
-                </div>
-                <div class="flip-card-back">
-                  <a href="https://twitter.com/" target="_blank" class="flip-card-link">
-                    <img src="./images/twitter-lightblue.svg" alt="" />
-                  </a>
-                  <a href="https://www.facebook.com/" target="_blank" class="flip-card-link">
-                    <img src="./images/facebook-lightblue.svg" alt="" />
-                  </a>
-                  <a href="https://www.instagram.com/" target="_blank" class="flip-card-link">
-                    <img src="./images/instagram-lightblue.svg" alt="" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <h2 class="title hero__title">Lily Allen</h2>
-            <p class="hero__text">Graphic Designer</p>
-          </div>
-        </section>
         <!-- <div class="cards">
           <ul class="list cards__list">
             <li class="item cards__item">
@@ -171,7 +175,58 @@
         </div> -->
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="container footer__container">
+          <div class="logo">
+            <img src="./images/logo.svg" alt="" />
+          </div>
+          <div class="nav footer__nav">
+            <ul class="nav__list">
+              <li class="nav-item">
+                <a href="" class="nav-link nav_link--action">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav-link nav_link--action">services</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav-link nav_link--action">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="nav-link nav_link--action">contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="social">
+            <ul class="list social__list">
+              <li>
+                <a href="">
+                  <img src="./images/twitter-white.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./images/facebook-white.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./images/instagram-white.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./images/linkedin-white.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="./images/telegram-white.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

@@ -3,15 +3,18 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: rgb(235, 212, 212);
 }
 
 .wrapper {
   position: relative;
-  max-width: 1170px;
+}
+
+[class*='container'] {
+  width: 1170px;
   margin: 0 auto;
 }
-.header {
+
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -150,4 +153,19 @@ body {
 .flip-card-back {
   transform: rotateY(180deg);
   background: #18b5dc;
+}
+
+.main {
+  background: #f6f6f6;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social__list {
+  display: flex;
+  gap: 10px;
 }
