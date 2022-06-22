@@ -1,0 +1,264 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  position: relative;
+}
+
+[class*='container'] {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 30px;
+}
+
+.nav_link--action {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  transition: color 4s;
+}
+.nav_link--action:hover {
+  color: #18b5dc;
+  transition: color 0.4s;
+}
+
+.form__btn--action:hover {
+  background: #18b5dc;
+  transition: 0.4s;
+  border: none;
+  color: #ffffff;
+}
+
+.about {
+  margin-top: 150px;
+  align-items: center;
+}
+
+.about__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  text-align: center;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+
+.about__text {
+  margin-top: 40px;
+  width: 570px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #3c3c3c;
+}
+
+.about__title::after {
+  content: '';
+  display: flex;
+  margin: 0 auto;
+  width: 40px;
+  border-bottom: 4px solid #dddbdb;
+  margin-top: 20px;
+}
+
+.main__cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+
+.checkbox:not(:checked) ~ .modal {
+  display: none;
+}
+
+.glass__modal {
+  position: absolute;
+  width: 33.333%;
+  height: 40%;
+  background: #0003;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.form__phone,
+.form__email {
+  height: 50px;
+  width: 60%;
+}
+
+.btn {
+  border: 1px solid #3c3c3c;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #3c3c3c;
+  background: #ffffff;
+  width: 130px;
+  height: 42px;
+}
+
+.glass__lable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.flip-card {
+  margin-bottom: 20px;
+}
+
+.flip-card__link:hover:nth-child(1) {
+  content: url('../images/twitter-white.svg');
+  width: 42px;
+}
+
+.flip-card__link:hover:nth-child(2) {
+  content: url('../images/facebook-white.svg');
+  width: 42px;
+}
+
+.flip-card__link:hover:nth-child(3) {
+  content: url('../images/instagram-white.svg');
+  width: 42px;
+}
+
+.flip-card__inner {
+  position: relative;
+  width: 270px;
+  height: 270px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card__inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card__front,
+.flip-card__back {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  gap: 4px;
+}
+
+.flip-card__back {
+  transform: rotateY(180deg);
+  background: #18b5dc;
+}
+
+.hero__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #282528;
+}
+
+.hero__text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #646464;
+}
+
+.main {
+  background: #f6f6f6;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social__list {
+  display: flex;
+  gap: 10px;
+}
+
+.footer__container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.footer__nav {
+  margin-bottom: 20px;
+}
+
+.footer__link {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.social__item:hover:nth-child(1) {
+  content: url('../images/twitter-blue.svg');
+  width: 42px;
+}
+.social__item:hover:nth-child(2) {
+  content: url('../images/facebook-blue.svg');
+  width: 42px;
+}
+.social__item:hover:nth-child(3) {
+  content: url('../images/instagram-blue.svg');
+  width: 42px;
+}
+.social__item:hover:nth-child(4) {
+  content: url('../images/linkedin-blue.svg');
+  width: 42px;
+}
+.social__item:hover:nth-child(5) {
+  content: url('../images/telegram-blue.svg');
+  width: 42px;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container header__container">
+          <div class="logo">
+            <a href="#">
+              <img src="./images/logo.svg" alt="logo" />
+            </a>
+          </div>
+
+          <nav class="nav header__nav header__nav--action">
+            <ul class="nav__list nav_list--action">
+              <li class="nav__item">
+                <a href="#" class="nav__link nav_link--action">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav_link--action">services</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav_link--action">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav_link--action">contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="glass header__glass header__glass--action">
+            <input type="checkbox" id="box" class="checkbox" hidden />
+
+            <button class="btn form__btn form__btn--action">
+              <label for="box" class="label glass__lable">callback</label>
+            </button>
+
+            <div class="modal glass__modal">
+              <form class="form modal__form">
+                <input type="tel" class="phone form__phone" placeholder="Phone number" />
+                <input type="email" class="email form__email" placeholder="Your email" />
+                <button type="submit" class="btn form__btn form__btn--action">contact me</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="container maim__container">
+          <div class="about">
+            <h1 class="title about__title">who we are</h1>
+            <p class="text about__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+
+          <section class="cards main__cards">
+            <div class="hero">
+              <div class="flip-card">
+                <div class="flip-card__inner">
+                  <div class="flip-card__front">
+                    <img src="./images/1.jpg" alt="hero 1" width="270" height="270" />
+                  </div>
+
+                  <div class="flip-card__back">
+                    <a href="https://twitter.com/" target="_blank" class="flip-card__link">
+                      <img src="./images/twitter-lightblue.svg" alt="twitter" width="42" />
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="flip-card__link">
+                      <img src="./images/facebook-lightblue.svg" alt="facebook" width="42" />
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="flip-card__link">
+                      <img src="./images/instagram-lightblue.svg" alt="instagram" width="42" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="title hero__title">John Handson</h2>
+              <p class="hero__text">Lead designer</p>
+            </div>
+
+            <div class="hero">
+              <div class="flip-card">
+                <div class="flip-card__inner">
+                  <div class="flip-card__front">
+                    <img src="./images/2.jpg" alt="hero 2" width="270" />
+                  </div>
+
+                  <div class="flip-card__back">
+                    <a href="https://twitter.com/" target="_blank" class="flip-card__link">
+                      <img src="./images/twitter-lightblue.svg" alt="twitter" width="42" />
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="flip-card__link">
+                      <img src="./images/facebook-lightblue.svg" alt="facebook" width="42" />
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="flip-card__link">
+                      <img src="./images/instagram-lightblue.svg" alt="instagram" width="42" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="title hero__title">Alex Cutter</h2>
+              <p class="hero__text">Developer</p>
+            </div>
+
+            <div class="hero">
+              <div class="flip-card">
+                <div class="flip-card__inner">
+                  <div class="flip-card__front">
+                    <img src="./images/3.jpg" alt="hero 3" width="270" />
+                  </div>
+
+                  <div class="flip-card__back">
+                    <a href="https://twitter.com/" target="_blank" class="flip-card__link">
+                      <img src="./images/twitter-lightblue.svg" alt="twitter" width="42" />
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="flip-card__link">
+                      <img src="./images/facebook-lightblue.svg" alt="facebook" width="42" />
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="flip-card__link">
+                      <img src="./images/instagram-lightblue.svg" alt="instagram" width="42" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="title hero__title">Elena Simpson</h2>
+              <p class="hero__text">Artist</p>
+            </div>
+
+            <div class="hero">
+              <div class="flip-card">
+                <div class="flip-card__inner">
+                  <div class="flip-card__front">
+                    <img src="./images/4.jpg" alt="hero 4" width="270" />
+                  </div>
+
+                  <div class="flip-card__back">
+                    <a href="https://twitter.com/" target="_blank" class="flip-card__link">
+                      <img src="./images/twitter-lightblue.svg" alt="twitter" width="42" />
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" class="flip-card__link">
+                      <img src="./images/facebook-lightblue.svg" alt="facebook" width="42" />
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="flip-card__link">
+                      <img src="./images/instagram-lightblue.svg" alt="instagram" width="42" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h2 class="title hero__title">Lily Allen</h2>
+              <p class="hero__text">Graphic Designer</p>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container footer__container">
+          <div class="logo footer__logo">
+            <a href="#">
+              <img src="./images/logo.svg" alt="logo" />
+            </a>
+          </div>
+
+          <div class="nav footer__nav">
+            <ul class="nav__list">
+              <li class="nav-item">
+                <a href="" class="footer__link nav_link--action">Home</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="footer__link nav_link--action">services</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="footer__link nav_link--action">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="" class="footer__link nav_link--action">contacts</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="social">
+            <ul class="list social__list">
+              <li class="social__item">
+                <a href="https://twitter.com/">
+                  <img src="./images/twitter-white.svg" alt="twitter" width="42" />
+                </a>
+              </li>
+
+              <li class="social__item">
+                <a href="https://www.facebook.com/">
+                  <img src="./images/facebook-white.svg" alt="facebook" width="42" />
+                </a>
+              </li>
+
+              <li class="social__item">
+                <a href="https://www.instagram.com/">
+                  <img src="./images/instagram-white.svg" alt="instagram" width="42" />
+                </a>
+              </li>
+
+              <li class="social__item">
+                <a href="https://www.linkedin.com/">
+                  <img src="./images/linkedin-white.svg" alt="linkedin" width="42" />
+                </a>
+              </li>
+
+              <li class="social__item">
+                <a href="https://web.telegram.org/">
+                  <img src="./images/telegram-white.svg" alt="telegram" width="42" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
